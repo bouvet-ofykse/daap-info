@@ -1,4 +1,4 @@
-import { Mail, Phone } from 'lucide-react'
+import { Mail, MessageSquare, Phone } from 'lucide-react'
 import { dapInfo } from '@/lib/dap-info'
 import { SectionHeading } from './section-heading'
 
@@ -19,18 +19,31 @@ export function RsvpSection() {
 
       <ul className="flex flex-col gap-3 self-end">
         {svar.kontakter.map((kontakt) => (
-          <li key={kontakt.telefon}>
-            <a
-              href={`sms:${kontakt.telefon}`}
-              className="flex items-center justify-between gap-4 rounded-lg border border-border bg-card px-5 py-4 transition-colors hover:border-accent"
+            <li
+                key={kontakt.telefon}
+                className="flex items-center justify-between gap-4 rounded-lg border border-border bg-card px-5 py-4"
             >
-              <span className="flex flex-col">
-                <span className="text-sm text-muted-foreground">{`Send SMS til ${kontakt.navn}`}</span>
-                <span className="font-serif text-2xl text-card-foreground tabular-nums">{kontakt.visning}</span>
-              </span>
-              <Phone className="size-5 text-accent" aria-hidden="true" />
-            </a>
-          </li>
+            <span className="flex flex-col">
+              <span className="text-sm text-muted-foreground">{kontakt.navn}</span>
+              <span className="font-serif text-2xl text-card-foreground tabular-nums">{kontakt.visning}</span>
+            </span>
+              <span className="flex shrink-0 items-center gap-2">
+              <a
+                  href={`tel:${kontakt.telefon}`}
+                  aria-label={`Ring ${kontakt.navn}`}
+                  className="rounded-md p-2 text-accent transition-colors hover:bg-muted"
+              >
+                <Phone className="size-5" aria-hidden="true" />
+              </a>
+              <a
+                  href={`sms:${kontakt.telefon}`}
+                  aria-label={`Send SMS til ${kontakt.navn}`}
+                  className="rounded-md p-2 text-accent transition-colors hover:bg-muted"
+              >
+                <MessageSquare className="size-5" aria-hidden="true" />
+              </a>
+            </span>
+            </li>
         ))}
         <li>
           <a
