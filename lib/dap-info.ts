@@ -70,7 +70,7 @@ export const dapInfo = {
       rolle: 'Dåpsmiddag',
       navn: 'Trondheim frikirke',
       adresse: 'Brøsetvegen 145A, 7048 Trondheim',
-      tid: 'kl. 17.00',
+      tid: 'kl. 17.30',
       kartUrl: 'https://maps.google.com/?q=Trondheim+frikirke',
       merknad: 'Omtrent 15 minutter med bil fra kirken.',
     },
