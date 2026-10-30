@@ -22,9 +22,9 @@ function lagKalenderfil() {
     `DTSTAMP:${formaterIcsDato(new Date())}`,
     `DTSTART:${formaterIcsDato(start)}`,
     `DTEND:${formaterIcsDato(slutt)}`,
-    `SUMMARY:Dåp - ${dapInfo.barn.join(' og ')}`,
+    `SUMMARY:Dåp - ${dapInfo.barn.join(' og ')} 🩵🩵`,
     `LOCATION:${kirke.navn}, ${kirke.adresse}`,
-    `DESCRIPTION:${dapInfo.datoTekst}, ${dapInfo.klokkeslett}`,
+    `DESCRIPTION: Gudstjeneste i ${dapInfo.steder[0].navn}, middag, kaffe og kaker etterpå i ${dapInfo.steder[1].navn}`,
     'END:VEVENT',
     'END:VCALENDAR',
   ].join('\r\n')
