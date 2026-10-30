@@ -23,6 +23,11 @@ export type Fadder = {
   for: 'Aksel' | 'Henrik' | 'Begge'
 }
 
+export type FaqPunkt = {
+  spørsmål: string
+  svar: string
+}
+
 export const dapInfo = {
   barn: ['Aksel', 'Henrik'] as const,
   etternavn: 'Haugberg Fykse',
@@ -78,7 +83,7 @@ export const dapInfo = {
   praktisk: [
     {
       tittel: 'Antrekk',
-      tekst: 'Pent antrekk. Tenk gjerne på at vi skal være litt ute for bilder.',
+      tekst: 'Pent antrekk. Nidarosdomen kan være litt kald i januar og vi anbefaler derfor å ta med litt ekstra tøy til dem som lett fryser.',
     },
     {
       tittel: 'Barn',
@@ -86,7 +91,7 @@ export const dapInfo = {
     },
     {
       tittel: 'Gaver',
-      tekst: 'Det viktigste er at dere kommer. Ønsker dere å gi noe, ta gjerne kontakt med oss.',
+      tekst: 'Det viktigste er at dere kommer. Ønsker dere å gi pengegaver, ta gjerne kontakt med oss.',
     },
     {
       tittel: 'Allergier',
@@ -107,4 +112,22 @@ export const dapInfo = {
     ],
     epost: 'olav.fykse@gmail.no',
   },
+  faq: [
+    {
+      spørsmål: 'Er det lov å ta bilder under dåpen?',
+      svar: 'Kirken ønsker at det ikke fotograferes under selve dåpshandlingen. Vi organiserer en egen fotograf for dette. Etter prosesjonen samles vi midt i kirken, dere får dåpsattest, og det er mulig å ta bilder sammen med familie. ',
+    },
+    {
+      spørsmål: 'Er det satt opp transport mellom kirken og middagen?',
+      svar: 'Vi satser på å organisere samkjøring, men det er også mulig å ta buss eller taxi. Hvis du ikke har skyss, ta kontakt med oss så finner vi en løsning.',
+    },
+    {
+      spørsmål: 'Hvor kan jeg parkere?',
+      svar: 'Det er betalt parkering i Munkegata i retning torvet. Utenfor Frikirken er det gratis parkering, følg skilting.',
+    },
+    {
+      spørsmål: 'Jeg er tilreisende, hvor kan jeg bo?',
+      svar: 'Vi har begrenset begrenset antall overnattingsplasser hos oss, så vi anbefaler hotell på Tiller, Lerkdendal eller i midtbyen.',
+    },
+  ] satisfies FaqPunkt[],
 }

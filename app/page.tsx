@@ -5,6 +5,7 @@ import { ProgramSection } from '@/components/program-section'
 import { RsvpSection } from '@/components/rsvp-section'
 import { SiteFooter } from '@/components/site-footer'
 import { SiteHeader } from '@/components/site-header'
+import { FaqSection } from '@/components/faq-section';
 
 export default function Page() {
   return (
@@ -16,6 +17,7 @@ export default function Page() {
         <PlacesSection />
         <PracticalSection />
         <RsvpSection />
+        <FaqSection />
       </main>
       <SiteFooter />
     </>
