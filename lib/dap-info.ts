@@ -25,10 +25,10 @@ export type Fadder = {
 
 export const dapInfo = {
   barn: ['Aksel', 'Henrik'] as const,
-  etternavn: 'Nordmann',
-  dato: '2027-05-23T11:00:00+02:00',
-  datoTekst: 'Søndag 23. mai 2027',
-  klokkeslett: 'kl. 11.00',
+  etternavn: 'Haugberg Fykse',
+  dato: '2027-01-09T15:00:00+02:00',
+  datoTekst: 'Lørdag 9. januar 2027',
+  klokkeslett: 'kl. 15.00',
   intro:
     'Vi gleder oss til å feire dåpen til Aksel og Henrik sammen med dere. Her finner dere alt dere trenger å vite om dagen – fra gudstjenesten i kirken til middagen etterpå.',
   bibelvers: {
@@ -37,42 +37,42 @@ export const dapInfo = {
   },
   program: [
     {
-      tid: '10.30',
+      tid: '14.45',
       tittel: 'Oppmøte i kirken',
-      beskrivelse: 'Kom gjerne litt tidlig, så finner vi plassene våre i ro og fred.',
+      beskrivelse: 'Kom gjerne litt tidlig, så finner vi plassene våre i ro og fred. Bruk inngangen fra Munkegata.',
     },
     {
-      tid: '11.00',
+      tid: '15.00',
       tittel: 'Gudstjeneste med dåp',
       beskrivelse: 'Aksel og Henrik døpes under høymessen. Gudstjenesten varer omtrent en time.',
     },
     {
-      tid: '12.15',
-      tittel: 'Bilder utenfor kirken',
-      beskrivelse: 'Vi tar noen fellesbilder på kirketrappen før vi drar videre.',
+      tid: '16.15',
+      tittel: 'Fotografering i kirken',
+      beskrivelse: 'Vi tar noen fellesbilder i kirken før vi drar videre.',
     },
     {
-      tid: '13.30',
+      tid: '17.30',
       tittel: 'Dåpsmiddag',
-      beskrivelse: 'Middag, kake og kaffe i selskapslokalet. Vi avslutter rundt kl. 17.',
+      beskrivelse: 'Middag, kake og kaffe i selskapslokalet.',
     },
   ] satisfies ProgramPunkt[],
   steder: [
     {
       rolle: 'Dåp',
-      navn: 'Eksempel kirke',
-      adresse: 'Kirkeveien 1, 0000 Byen',
-      tid: 'kl. 11.00',
-      kartUrl: 'https://maps.google.com/?q=Kirkeveien+1',
-      merknad: 'Parkering ved menighetshuset rett ved siden av kirken.',
+      navn: 'Nidarosdomen',
+      adresse: 'Kongsgårdsgata 2, 7013 Trondheim',
+      tid: 'kl. 15.00',
+      kartUrl: 'https://maps.google.com/?q=Nidarosdomen',
+      merknad: 'Parkering tilgjengelig i Munkegata retning torvet',
     },
     {
       rolle: 'Dåpsmiddag',
-      navn: 'Selskapslokalet',
-      adresse: 'Festgata 12, 0000 Byen',
-      tid: 'kl. 13.30',
-      kartUrl: 'https://maps.google.com/?q=Festgata+12',
-      merknad: 'Omtrent ti minutter med bil fra kirken.',
+      navn: 'Trondheim frikirke',
+      adresse: 'Brøsetvegen 145A, 7048 Trondheim',
+      tid: 'kl. 17.00',
+      kartUrl: 'https://maps.google.com/?q=Trondheim+frikirke',
+      merknad: 'Omtrent 15 minutter med bil fra kirken.',
     },
   ] satisfies Sted[],
   praktisk: [
@@ -94,17 +94,17 @@ export const dapInfo = {
     },
   ] satisfies PraktiskInfo[],
   faddere: [
-    { navn: 'Fadder Én', for: 'Aksel' },
-    { navn: 'Fadder To', for: 'Aksel' },
-    { navn: 'Fadder Tre', for: 'Henrik' },
-    { navn: 'Fadder Fire', for: 'Henrik' },
+    { navn: 'Anna Kvandal', for: 'Aksel' },
+    { navn: 'Frida Aune', for: 'Henrik' },
+    { navn: 'Odin Kvalvåg Dahlen', for: 'Begge' },
+    { navn: 'Anne Veie Plauborg ', for: 'Begge' },
   ] satisfies Fadder[],
   svar: {
-    frist: '1. mai 2027',
+    frist: '15. desember 2026',
     kontakter: [
-      { navn: 'Mamma', telefon: '+4700000000', visning: '000 00 000' },
-      { navn: 'Pappa', telefon: '+4700000001', visning: '000 00 001' },
+      { navn: 'Pappa', telefon: '+4745260118', visning: '45260118' },
+      { navn: 'Mamma', telefon: '+4748142518', visning: '48142518' },
     ],
-    epost: 'familien@eksempel.no',
+    epost: 'olav.fykse@gmail.no',
   },
 }

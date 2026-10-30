@@ -8,8 +8,8 @@ export function ProgramSection() {
         <div className="flex flex-col gap-6">
           <SectionHeading id="program-tittel" eyebrow="Dagen" title="Program" />
           <blockquote className="flex flex-col gap-2 border-l-0 font-serif text-xl italic leading-snug text-muted-foreground">
-            <p>{`«${dapInfo.bibelvers.tekst}»`}</p>
-            <footer className="font-sans text-sm not-italic tracking-wide">{dapInfo.bibelvers.kilde}</footer>
+            {/*<p>{`«${dapInfo.bibelvers.tekst}»`}</p>*/}
+            {/*<footer className="font-sans text-sm not-italic tracking-wide">{dapInfo.bibelvers.kilde}</footer>*/}
           </blockquote>
         </div>
 
