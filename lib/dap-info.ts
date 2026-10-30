@@ -26,7 +26,7 @@ export type Fadder = {
 export const dapInfo = {
   barn: ['Aksel', 'Henrik'] as const,
   etternavn: 'Haugberg Fykse',
-  dato: '2027-01-09T15:00:00+02:00',
+  dato: '2027-01-09T15:00:00+01:00',
   datoTekst: 'Lørdag 9. januar 2027',
   klokkeslett: 'kl. 15.00',
   intro:
@@ -97,7 +97,7 @@ export const dapInfo = {
     { navn: 'Anna Kvandal', for: 'Aksel' },
     { navn: 'Frida Aune', for: 'Henrik' },
     { navn: 'Odin Kvalvåg Dahlen', for: 'Begge' },
-    { navn: 'Anne Veie Plauborg ', for: 'Begge' },
+    { navn: 'Anne Veie Plauborg', for: 'Begge' },
   ] satisfies Fadder[],
   svar: {
     frist: '15. desember 2026',

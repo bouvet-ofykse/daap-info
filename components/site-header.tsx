@@ -10,7 +10,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-20 border-b border-border/70 bg-background/85 backdrop-blur">
       <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-5 py-3">
         <a href="#top" className="font-serif text-xl text-foreground">
-          {'A & H'}
+          {'A H'}
         </a>
         <nav aria-label="Hovedmeny">
           <ul className="flex items-center gap-4 text-sm text-muted-foreground sm:gap-6">

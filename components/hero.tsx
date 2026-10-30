@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { dapInfo } from '@/lib/dap-info'
+import {AddToCalendarButton} from '@/components/add-to-calendar';
 
 export function Hero() {
   const [forste, andre] = dapInfo.barn
@@ -40,6 +41,7 @@ export function Hero() {
           className="scale-[1.15] object-cover"
         />
       </div>
+      <AddToCalendarButton />
     </section>
   )
 }
