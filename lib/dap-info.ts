@@ -99,8 +99,8 @@ export const dapInfo = {
     },
   ] satisfies PraktiskInfo[],
   faddere: [
-    { navn: 'Anna Kvandal', for: 'Aksel' },
-    { navn: 'Frida Aune', for: 'Henrik' },
+    { navn: 'Anna Katarina Kvandal', for: 'Aksel' },
+    { navn: 'Frida Skauvik Aune', for: 'Henrik' },
     { navn: 'Odin Kvalvåg Dahlen', for: 'Begge' },
     { navn: 'Anne Veie Plauborg', for: 'Begge' },
   ] satisfies Fadder[],

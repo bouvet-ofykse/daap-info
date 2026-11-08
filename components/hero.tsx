@@ -31,13 +31,12 @@ export function Hero() {
         </dl>
       </div>
 
-      <div className="relative mx-auto aspect-[634/900] w-full max-w-xs overflow-hidden rounded-sm shadow-xl shadow-foreground/10 md:max-w-sm">
+      <div className="relative mx-auto aspect-[1800/1300] w-full max-w-xl overflow-hidden rounded-lg shadow-xl shadow-foreground/10">
         <Image
-          src="/images/hero-baater.png"
-          alt="Akvarell av to små papirbåter som flyter side om side på en stille fjord"
+          src="/images/Aksel_Henrik.jpeg"
+          alt="Aksel og Henrik"
           fill
           priority
-          sizes="(min-width: 768px) 384px, 320px"
           className="scale-[1.15] object-cover"
         />
       </div>
