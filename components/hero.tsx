@@ -31,13 +31,13 @@ export function Hero() {
         </dl>
       </div>
 
-      <div className="relative mx-auto aspect-[1800/1300] w-full max-w-xl overflow-hidden rounded-lg shadow-xl shadow-foreground/10">
+      <div className="relative mx-auto aspect-[2000/1500] w-full max-w-xl overflow-hidden rounded-lg shadow-xl shadow-foreground/10">
         <Image
           src="/images/Aksel_Henrik.jpeg"
           alt="Aksel og Henrik"
           fill
           priority
-          className="scale-[1.15] object-cover"
+          className="scale-[1] object-cover"
         />
       </div>
       <AddToCalendarButton />

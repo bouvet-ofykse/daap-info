@@ -87,7 +87,7 @@ export const dapInfo = {
     },
     {
       tittel: 'Barn',
-      tekst: 'Barn er hjertelig velkomne – både i kirken og på middagen. Det blir eget lekehjørne.',
+      tekst: 'Barn er hjertelig velkomne – både i kirken og på middagen. Vi lager en ordning der barna kan leke i selskapslokalet.',
     },
     {
       tittel: 'Gaver',
@@ -95,7 +95,7 @@ export const dapInfo = {
     },
     {
       tittel: 'Allergier',
-      tekst: 'Gi beskjed om allergier eller andre hensyn når du svarer, så ordner vi det.',
+      tekst: 'Gi beskjed om eventuelle allergier eller andre hensyn når du svarer, så ordner vi det.',
     },
   ] satisfies PraktiskInfo[],
   faddere: [
@@ -115,11 +115,11 @@ export const dapInfo = {
   faq: [
     {
       spørsmål: 'Er det lov å ta bilder under dåpen?',
-      svar: 'Kirken ønsker at det ikke fotograferes under selve dåpshandlingen. Vi organiserer en egen fotograf for dette. Etter prosesjonen samles vi midt i kirken, dere får dåpsattest, og det er mulig å ta bilder sammen med familie. ',
+      svar: 'Kirken ønsker at det ikke fotograferes under selve dåpshandlingen. Vi organiserer en egen fotograf for dette. Etter prosesjonen samles vi midt i kirken, og det er mulig å ta bilder sammen med familie. ',
     },
     {
       spørsmål: 'Er det satt opp transport mellom kirken og middagen?',
-      svar: 'Vi satser på å organisere samkjøring, men det er også mulig å ta buss eller taxi. Hvis du ikke har skyss, ta kontakt med oss så finner vi en løsning.',
+      svar: 'Vi satser på å organisere samkjøring. Hvis du ikke har egen bil eller skyss, ta kontakt med oss så finner vi en løsning.',
     },
     {
       spørsmål: 'Hvor kan jeg parkere?',
