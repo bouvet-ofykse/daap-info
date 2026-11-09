@@ -24,7 +24,7 @@ function lagKalenderfil() {
     `DTEND:${formaterIcsDato(slutt)}`,
     `SUMMARY:Dåp - ${dapInfo.barn.join(' og ')} 🩵🩵`,
     `LOCATION:${kirke.navn}, ${kirke.adresse}`,
-    `DESCRIPTION: Gudstjeneste i ${dapInfo.steder[0].navn}, middag, kaffe og kaker etterpå i ${dapInfo.steder[1].navn}`,
+    `DESCRIPTION: Gudstjeneste i ${dapInfo.steder[0].navn}. Middag, kaffe og kaker etterpå i ${dapInfo.steder[1].navn}`,
     'END:VEVENT',
     'END:VCALENDAR',
   ].join('\r\n')

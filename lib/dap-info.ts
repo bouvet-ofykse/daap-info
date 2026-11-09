@@ -80,7 +80,7 @@ export const dapInfo = {
       adresse: 'Brøsetvegen 145A, 7048 Trondheim',
       tid: 'kl. 17.30',
       kartUrl: 'https://maps.google.com/?q=Trondheim+frikirke',
-      merknad: 'Omtrent 15 minutter med bil fra kirken.',
+      merknad: 'Omtrent 15 minutter med bil fra kirken. Gratis parkering utenfor lokalet, følg skilting',
     },
   ] satisfies Sted[],
   praktisk: [
@@ -130,7 +130,7 @@ export const dapInfo = {
     },
     {
       spørsmål: 'Jeg er tilreisende, hvor kan jeg bo?',
-      svar: 'Vi har begrenset begrenset antall overnattingsplasser hos oss, så vi anbefaler hotell på Tiller, Lerkdendal eller i midtbyen.',
+      svar: 'Vi har begrenset antall overnattingsplasser hos oss, så vi anbefaler hotell på Tiller, Lerkdendal eller i midtbyen.',
     },
   ] satisfies FaqPunkt[],
 }
