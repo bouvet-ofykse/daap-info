@@ -6,6 +6,7 @@ import { RsvpSection } from '@/components/rsvp-section'
 import { SiteFooter } from '@/components/site-footer'
 import { SiteHeader } from '@/components/site-header'
 import { FaqSection } from '@/components/faq-section';
+import PhotoUpload from '@/components/photo-upload';
 
 export default function Page() {
   return (
@@ -16,6 +17,7 @@ export default function Page() {
         <ProgramSection />
         <PlacesSection />
         <PracticalSection />
+        <PhotoUpload />
         <RsvpSection />
         <FaqSection />
       </main>

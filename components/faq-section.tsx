@@ -4,7 +4,7 @@ import { SectionHeading } from './section-heading'
 
 export function FaqSection() {
   return (
-    <section id="faq" aria-labelledby="faq-tittel" className="scroll-mt-20 bg-secondary">
+    <section id="faq" aria-labelledby="faq-tittel" className="scroll-mt-20">
       <div className="mx-auto grid max-w-5xl gap-10 px-5 py-16 md:grid-cols-[1fr_2fr] md:py-24">
         <div className="flex flex-col gap-6">
           <SectionHeading id="faq-tittel" eyebrow="Lurer du på noe?" title="Ofte stilte spørsmål" />
