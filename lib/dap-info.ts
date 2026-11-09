@@ -1,3 +1,6 @@
+
+export const ALBUM_URL = 'https://photos.icloud.com/shared/album/024E4jAfPXsMK6q51f8k2RNrA';
+
 export type ProgramPunkt = {
   tid: string
   tittel: string

@@ -1,7 +1,7 @@
 import { ArrowUpRight, Camera } from 'lucide-react'
 import { SectionHeading } from './section-heading'
+import { ALBUM_URL } from '@/lib/dap-info'
 
-const ALBUM_URL = 'https://photos.icloud.com/shared/album/024E4jAfPXsMK6q51f8k2RNrA'
 
 export default function PhotoUpload() {
   return (
