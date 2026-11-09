@@ -5,7 +5,7 @@ const ALBUM_URL = 'https://photos.icloud.com/shared/album/024E4jAfPXsMK6q51f8k2R
 
 export default function PhotoUpload() {
   return (
-    <section aria-labelledby="bilder-tittel" className="scroll-mt-20">
+    <section id="bilder" aria-labelledby="bilder-tittel" className="scroll-mt-20">
       <div className="mx-auto max-w-5xl px-5 py-16 md:py-24">
         <div className="flex flex-col items-center gap-6 rounded-lg border border-border bg-card px-6 py-10 text-center sm:px-10 sm:py-12">
           <div className="flex size-14 items-center justify-center rounded-full bg-secondary text-accent">
