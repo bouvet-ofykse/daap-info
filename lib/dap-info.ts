@@ -38,7 +38,7 @@ export const dapInfo = {
   datoTekst: 'Lørdag 9. januar 2027',
   klokkeslett: 'kl. 15.00',
   intro:
-    'Vi gleder oss til å feire dåpen til Aksel og Henrik sammen med dere. Her finner dere alt dere trenger å vite om dagen – fra gudstjenesten i kirken til middagen etterpå.',
+    'Vi gleder oss til å feire dåpen til Aksel og Henrik sammen med dere. Her finner dere alt dere trenger å vite om dagen – fra dåpsgudstjenesten i kirken til middagen etterpå.',
   bibelvers: {
     tekst: 'La de små barna komme til meg, og hindre dem ikke.',
     kilde: 'Markus 10,14',
@@ -52,7 +52,7 @@ export const dapInfo = {
     {
       tid: '15.00',
       tittel: 'Gudstjeneste med dåp',
-      beskrivelse: 'Aksel og Henrik døpes under høymessen. Gudstjenesten varer omtrent en time.',
+      beskrivelse: 'Gudstjenesten varer omtrent en time.',
     },
     {
       tid: '16.15',
@@ -60,7 +60,7 @@ export const dapInfo = {
       beskrivelse: 'Vi tar noen fellesbilder i kirken før vi drar videre.',
     },
     {
-      tid: '17.30',
+      tid: '17.00',
       tittel: 'Dåpsmiddag',
       beskrivelse: 'Middag, kake og kaffe i selskapslokalet.',
     },
@@ -78,7 +78,7 @@ export const dapInfo = {
       rolle: 'Dåpsmiddag',
       navn: 'Trondheim frikirke',
       adresse: 'Brøsetvegen 145A, 7048 Trondheim',
-      tid: 'kl. 17.30',
+      tid: 'kl. 17.00',
       kartUrl: 'https://maps.google.com/?q=Trondheim+frikirke',
       merknad: 'Omtrent 15 minutter med bil fra kirken. Gratis parkering utenfor lokalet, følg skilting',
     },
