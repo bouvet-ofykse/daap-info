@@ -2,6 +2,9 @@
 import { ALBUM_URL } from './lib/dap-info.ts'
 
 const nextConfig = {
+  env: {
+    NEXT_PUBLIC_BUILD_TIME: new Date().toISOString(),
+  },
   typescript: {
     ignoreBuildErrors: true,
   },
