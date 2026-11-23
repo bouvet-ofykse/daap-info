@@ -38,12 +38,12 @@ export const dapInfo = {
   datoTekst: 'Lørdag 9. januar 2027',
   klokkeslett: 'kl. 15.00',
   intro:
-    'Vi gleder oss til å feire dåpen til Aksel og Henrik sammen med dere. Her finner dere alt dere trenger å vite om dagen – fra dåpsgudstjenesten i kirken til middagen etterpå.',
+    'Vi gleder oss til å feire dåpen til Aksel og Henrik sammen med dere. Her finner dere stort sett alt dere trenger å vite om dagen. Denne siden vil bli oppdatert med eventuelle endringer dersom dette skulle bli aktuelt.',
   program: [
     {
       tid: '14.45',
       tittel: 'Oppmøte i kirken',
-      beskrivelse: 'Kom gjerne litt tidlig, så finner vi plassene våre i ro og fred. Bruk inngangen fra Munkegata.',
+      beskrivelse: 'Kom gjerne litt tidlig, så unngår vil forsinkelser eller forstyrrelser. Bruk inngangen fra Munkegata. Reserverte plasser for familie og faddere.',
     },
     {
       tid: '15.00',
@@ -53,12 +53,12 @@ export const dapInfo = {
     {
       tid: '16.15',
       tittel: 'Fotografering i kirken',
-      beskrivelse: 'Vi tar noen fellesbilder i kirken før vi drar videre.',
+      beskrivelse: 'Vi tar noen fellesbilder i kirken. Om været tillater det, kan også noen bilder tas ute.',
     },
     {
       tid: '17.00',
       tittel: 'Dåpsmiddag',
-      beskrivelse: 'Middag, kake og kaffe i selskapslokalet.',
+      beskrivelse: 'Middag, kake og kaffe i Trondheim frikirke.',
     },
   ] satisfies ProgramPunkt[],
   steder: [
