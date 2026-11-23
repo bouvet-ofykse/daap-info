@@ -2,6 +2,9 @@
 import { ALBUM_URL } from './lib/dap-info.ts'
 
 const nextConfig = {
+  experimental: {
+    agentUpgrade: 'security',
+  },
   env: {
     NEXT_PUBLIC_BUILD_TIME: new Date().toISOString(),
   },
