@@ -39,10 +39,6 @@ export const dapInfo = {
   klokkeslett: 'kl. 15.00',
   intro:
     'Vi gleder oss til å feire dåpen til Aksel og Henrik sammen med dere. Her finner dere alt dere trenger å vite om dagen – fra dåpsgudstjenesten i kirken til middagen etterpå.',
-  bibelvers: {
-    tekst: 'La de små barna komme til meg, og hindre dem ikke.',
-    kilde: 'Markus 10,14',
-  },
   program: [
     {
       tid: '14.45',
@@ -80,7 +76,7 @@ export const dapInfo = {
       adresse: 'Brøsetvegen 145A, 7048 Trondheim',
       tid: 'kl. 17.00',
       kartUrl: 'https://maps.google.com/?q=Trondheim+frikirke',
-      merknad: 'Omtrent 15 minutter med bil fra kirken. Gratis parkering utenfor lokalet, følg skilting',
+      merknad: 'Omtrent 15 minutter med bil fra Nidarosdomen. Gratis parkering utenfor lokalet, følg skilting',
     },
   ] satisfies Sted[],
   praktisk: [
@@ -88,13 +84,13 @@ export const dapInfo = {
       tittel: 'Antrekk',
       tekst: 'Pent antrekk. Nidarosdomen kan være litt kald i januar og vi anbefaler derfor å ta med litt ekstra tøy til dem som lett fryser.',
     },
-    {
-      tittel: 'Barn',
-      tekst: 'Barn er hjertelig velkomne – både i kirken og på middagen. Vi lager en ordning der barna kan leke i selskapslokalet.',
-    },
+    // {
+    //   tittel: 'Barn',
+    //   tekst: 'Barn er hjertelig velkomne – både i kirken og på middagen. Vi lager en ordning der barna kan leke i selskapslokalet.',
+    // },
     {
       tittel: 'Gaver',
-      tekst: 'Det viktigste er at dere kommer. Ønsker dere å gi pengegaver, ta gjerne kontakt med oss.',
+      tekst: 'Det viktigste er at dere kommer. Egen ønskelsite kommer. Ønsker dere å gi pengegaver, benytt vipps eller ta kontakt med oss for kontonummer.',
     },
     {
       tittel: 'Allergier',
@@ -108,7 +104,7 @@ export const dapInfo = {
     { navn: 'Anne Veie Plauborg', for: 'Begge' },
   ] satisfies Fadder[],
   svar: {
-    frist: '15. desember 2026',
+    frist: '10. desember 2026',
     kontakter: [
       { navn: 'Pappa', telefon: '+4745260118', visning: '45260118' },
       { navn: 'Mamma', telefon: '+4748142518', visning: '48142518' },
@@ -126,7 +122,7 @@ export const dapInfo = {
     },
     {
       spørsmål: 'Hvor kan jeg parkere?',
-      svar: 'Det er betalt parkering i Munkegata i retning torvet. Utenfor Frikirken er det gratis parkering, følg skilting.',
+      svar: 'Det er betalt parkering utenfor Nidarosdomen i Munkegata, retning torvet. Utenfor Frikirken er det gratis parkering, følg skilting.',
     },
     {
       spørsmål: 'Jeg er tilreisende, hvor kan jeg bo?',
